@@ -10,9 +10,9 @@ const fs = require('fs');
     await page.setViewport({ width: 1280, height: 800 });
     await page.goto(`https://www.nitrotype.com/login`); 
     await page.focus('#username');
-    await page.keyboard.type('ENTER USERNAME HERE');
+    await page.keyboard.type('AutoZoneer');
     await page.focus('[id="password"]');
-    await page.keyboard.type('ENTER PASSSWORD HERE');
+    await page.keyboard.type('12345678910po');
 
     await page.click('[class="btn btn--primary btn--fw"]');
 
